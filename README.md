@@ -1,6 +1,22 @@
 # DatabaseServer
 
-**TODO: Add description**
+## Description
+
+This is a mock database server that accepts string messages and sends it back
+using a specified time interval (2 seconds at this time).
+
+## Usage
+
+```elixir
+# start the database server
+server_pid = DatabaseServer.start()
+
+# send query to the server
+DatabaseServer.send_query(server_pid, "hello world")
+
+# get result
+DatabaseServer.get_result()
+```
 
 ## Installation
 
