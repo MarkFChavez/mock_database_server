@@ -1,5 +1,8 @@
 # DatabaseServer
 
+I decided not to use **GenServer** and build a server from scratch. I'm also aware
+that the code you are about to see might not be efficient or may not be the best way.
+
 ## Description
 
 This is a mock database server that accepts string messages and sends it back
